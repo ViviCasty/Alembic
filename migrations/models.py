@@ -20,4 +20,4 @@ class Pessoa2(Base):
     nome: Mapped[str] = mapped_column(String(50), nullable=False)
     email: Mapped[str] = mapped_column(String(50), nullable=False)
     senha: Mapped[str] = mapped_column(String(50), nullable=False)
-    idade: Mapped[int] = mapped_column(Integer, nullable=False)
+    idade: Mapped[int] = mapped_column(Integer)
